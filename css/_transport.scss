@@ -88,26 +88,6 @@
     .slider-prev {
         margin-right: 36px;
     }
-
-    .slider-prev::after {
-        content: '';
-        position: absolute;
-        background-image: url('../images/arrow-prev.svg');
-        width: 28px;
-        height: 28px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .slider-next::after {
-        content: '';
-        position: absolute;
-        background-image: url('../images/arrow-next.svg');
-        width: 28px;
-        height: 28px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 }
 
 .slider {
