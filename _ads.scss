@@ -1,0 +1,16 @@
+.ads-hero {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.ads-hero__info {
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+    line-height: 130%;
+}
