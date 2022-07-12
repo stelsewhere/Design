@@ -270,24 +270,6 @@ h2, .nav__link {
 .slider__container .slider-prev {
   margin-right: 36px;
 }
-.slider__container .slider-prev::after {
-  content: "";
-  position: absolute;
-  background-image: url("/images/arrow-prev.svg");
-  width: 28px;
-  height: 28px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.slider__container .slider-next::after {
-  content: "";
-  position: absolute;
-  background-image: url("/images/arrow-next.svg");
-  width: 28px;
-  height: 28px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .slider {
   width: 342px;
@@ -346,4 +328,17 @@ h2, .nav__link {
   bottom: 110px;
   right: 50px;
   line-height: 130%;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.grid-image {
+  margin-bottom: 60px;
+  width: 1000px;
 }/*# sourceMappingURL=styles.css.map */
